@@ -9,8 +9,8 @@ public class GuessGame {
     public static void 
         guess(){
             Scanner scan = new Scanner(System.in);
-            //int number = 10; 
-            int number = (int) (1+ (100 * Math.random()));
+            int number = 10; //This is to initialize the guess number to 10 
+            //int number = (int) (1+ (100 * Math.random()));
             //Trials
             int J = 5;
             int i;
